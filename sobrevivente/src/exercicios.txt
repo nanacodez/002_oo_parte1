@@ -1,0 +1,24 @@
+Crie um record que representa veiculos com modelo, nivelCombustivel(número real)
+
+Ele não tem validações
+
+Ele tem um método chamado criar que recebe modelo e constroi um novo veiculo, com esse modelo recebido e com nivel de combustivel igual a 100
+
+Ele tem um metodo acelerar que, quando chamado, causa um gasto de 1 ponto de nivel de combustivel
+
+Construa um unico veiculo no metodo main e, num loop infinito, faça com que ele acelere continuamente ate acabar o combustivel.
+
+
+Encerre o loop quando isso acontecer
+
+
+===========================================================
+Criar uma classe Veiculo com placa e modelo
+
+Instanciar dois veiculos e exibir aquilo que seu toString devolve
+
+
+Construa também um terceiro veiculo, atribua valores com setters e mostre os valores com getters
+
+
+Tudo isso usando a lombok
