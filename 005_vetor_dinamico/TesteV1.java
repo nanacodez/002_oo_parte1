@@ -1,0 +1,25 @@
+import java.util.Random;
+public class TesteV1 {
+    public static void main(String[] args) throws Exception{
+        var gerador = new Random();
+        var v = new VetorDinamico();
+        while(true) {
+            var valor = gerador.nextInt(1, 11);
+            var oQueFazer = gerador.nextInt(0, 2);
+            switch(oQueFazer){
+                case 0:
+                    System.out.println("adicionando...");
+                    v.adicionar(valor);
+                    break;
+                case 1:
+                    System.out.println("removendo...");
+                    v.remover();
+                    break;
+            }
+            System.out.println(v);
+            System.out.println("=======================");
+            Thread.sleep(5000);
+        }
+    }
+}
+

@@ -9,6 +9,8 @@ public class JogoV2 {
         var p1 = new Personagem("Diego");
         //p1.nome = "Diego";
 
+
+
         var p2 = new Personagem("Nala", 5, 9, 2);
         //p2.nome = "Nala";
         //p2.setEnergia(5);
